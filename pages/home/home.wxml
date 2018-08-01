@@ -2,5 +2,6 @@
   <view class='container'>
     <image class="logo" src="../../resources/kind/logo.png"></image>
     <view class="desc">Banner</view>
+    <label>testGit</label>
   </view>
 </scroll-view>
