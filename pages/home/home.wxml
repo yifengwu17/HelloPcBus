@@ -1,7 +1,0 @@
-<scroll-view class="container">
-  <view class='container'>
-    <image class="logo" src="../../resources/kind/logo.png"></image>
-    <view class="desc">Banner</view>
-    <label>Ok，Let's begin</label>
-  </view>
-</scroll-view>
