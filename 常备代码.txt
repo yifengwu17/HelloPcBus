@@ -1,0 +1,29 @@
+<img src="http://temp.im/428x240/D4D4D4/fff" alt="" width="428" height="240"/>
+
+<img src="http://temp.im/428x240/B4EEB4/fff" alt="" width="428" height="240"/>
+
+<img src="http://temp.im/428x240/B2DFEE/fff" alt="" width="428" height="240"/>
+
+<img src="http://temp.im/428x240/66CDAA/fff" alt="" width="428" height="240"/>
+
+<img src="http://temp.im/428x240/71C671/fff" alt="" width="428" height="240"/>
+
+<img src="http://temp.im/428x240/FF9797/fff" alt="" width="428" height="240"/>
+
+--------------------------------------------------------------------------------------------------
+
+ new Slide({
+	         target: $('.slide_img li'),
+	         effect: 'slide',
+	         control: false,
+	         autoPlay: true,
+	         merge:true,
+	         prevBtn : $('.prev'),
+	         nextBtn : $('.next')
+	          
+	       });
+	    
+
+-------------------------------------------------------------------------------------------------
+filter:alpha(opacity=60);opacity: 0.6;
+-------------------------------------------------------------------------------------------------
