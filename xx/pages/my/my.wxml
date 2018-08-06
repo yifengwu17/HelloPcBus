@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class='myTop'>
+  <view class='top1'>
+    <view class='myImg'>
+      <image src="{{myImg}}"/>
+    </view>
+    <view class='mytxt1'>Name:{{userName}}</view>
+    <view class='mytxt2'>{{bumen}}--{{job}}</view>
+    <view class='mytxt3'>
+      <view class='txt3-L'>{{jobId}}</view>
+      <view class='txt3-R'>{{phone}}</view>      
+    </view>
+  </view>
+  <view class='top2'></view>
+  <view class='top3'></view>
+</view>
+
+
+
+<view class='wrap'>
+
+
+  <view class='list' bindtap='goodsDetail'>
+    <view class='col-l'>
+      <view class='line'>我的订单</view>
+      <view class='next-area'></view>
+      <view class='first-area'></view>      
+    </view>
+
+    <view class='col-r'>
+      <view class='seat'>{{goodsSum}}</view>
+      <view class='seat-txt'>目前订单数</view>
+    </view>    
+  </view>
+
+  <view class='list' bindtap='goCollection'>
+    <view class='col-l'>
+      <view class='line'>我的收藏</view>
+      <view class='next-area'></view>
+      <view class='first-area'></view>      
+    </view>
+
+    <view class='col-r'>
+      <view class='seat'>{{saveSum}}</view>
+      <view class='seat-txt'>目前收藏数</view>
+    </view>    
+  </view>
+
+
+
+
+
+
+</view>
+
+
+
+
+
+
+
+</view>
+

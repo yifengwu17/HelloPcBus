@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/lineDetail/lineDetail",
+    "pages/collection/collection",
+    "pages/goods/goods",
+    "pages/goods/goodsDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "你好巴士",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color":"#8a8a8a",
+    "position":"bottom",
+    "selectedColor": "#1296db",
+    "backgroundColor":"#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"pages/image/home.png",
+        "selectedIconPath":"pages/image/home-h.png"
+      },
+     
+    
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "pages/image/my.png",
+        "selectedIconPath": "pages/image/my-h.png"
+      }
+    ]
+  }
+
+
+  
+
+
+
+
+
+
+
+}

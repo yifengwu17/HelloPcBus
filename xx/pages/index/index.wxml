@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class='lb'>
+  <swiper indicator-dots='true' autoplay='true' interval='3000' circular='true'duration='400'>
+    <swiper-item wx:for="{{imgUrls}}" wx:key="key">
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </swiper>
+</view>
+
+
+<view class='wrap'>
+   
+
+
+       
+
+
+                <block wx:for="{{listsData}}" wx:for-item="item" wx:key="key">
+
+
+                  <view class='list' bindtap='goLineDetail' data-id="{{item.id}}">
+                    <view class='col-l'>
+                      <view class='line'>{{item.line}}</view>
+                      <view class='next-area'>开往 <text class='nArea'>{{item.nextArea}}</text></view>
+                      <view class='first-area'>候车站 <text class='fArea'>{{item.firstArea}}</text></view>      
+                    </view>
+
+                    <view class='col-r'>
+                      <view class='seat'>{{item.seatNumber}}</view>
+                      <view class='seat-txt'>剩余座位</view>
+                    </view>
+                  </view>
+
+
+
+                </block>
+              
+           
+</view>
+
+</view>
+
