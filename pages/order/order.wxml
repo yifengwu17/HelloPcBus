@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class='banner'>
+</view>
+
+
+<view class='wrap'>
+
+      <view class='list'>
+        <view class='col-l'>
+          <view class='line'>体育西线</view>
+          <view class='next-area'>开往 <text class='nArea'>太平洋网络</text></view>
+          <view class='first-area'>候车站 <text class='fArea'>体育西</text></view>      
+        </view>
+
+        <view class='col-r'>
+          <view class='seat'>6</view>
+          <view class='seat-txt'>剩余座位</view>
+        </view>
+      </view>
+
+      <view class='list nh'>
+        <view class='o-1'>
+          <view class='od'>预定时间</view>
+          <view class='odate'>8月9日</view>      
+        </view>
+
+        <view class='o-2'>
+          <view class='os'>预定座位</view>
+          <view class='oseat'>3</view>
+        </view>
+      </view>
+
+      <button class='sub'  bindtap='submit'>提交订单</button>
+    
+</view>
+
+</view>
+

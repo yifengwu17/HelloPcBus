@@ -1,8 +1,0 @@
-.wrap{position: relative;}
-.tab-h{height: 60rpx;width: 100%; box-sizing: border-box;overflow: hidden;line-height: 80rpx;font-size: 16px; white-space: nowrap;position: absolute;top: 0; left: 0; z-index: 99;}
-.tab-item{width: 100rpx;display: inline-block;text-align: center;height: 40rpx;line-height: 40rpx;border-radius:20rpx;}
-.tab-item.active{background: #0084f8;color: #fff;}
-.tab-content{margin-top: 80rpx;}
-.scoll-h{height: 100%;}
-
-.dataBox{float: right;color:#0084f8;width: 100rpx;height: 80rpx;line-height: 80rpx;text-align: center;font-size: 28rpx;margin-right: 8%;}

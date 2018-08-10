@@ -1,0 +1,35 @@
+<!--pages/collection/cotection.wxml-->
+<view class='container'>
+  <view class='top-box' style='font-size:36rpx;padding:20rpx;'>收藏页</view>
+  
+  <view class='wrap'>
+
+      <view class='list' bindtap='goLineDetail' data-id="{{item.id}}">
+        <view class='col-l'>
+          <view class='line'>{{line}}</view>
+          <view class='next-area'>开往 <text class='nArea'>{{nextArea}}</text></view>
+          <view class='first-area'>候车站 <text class='fArea'>{{firstArea}}</text></view>      
+        </view>
+
+        <view class='col-r'>
+          <view class='seat' style='font-size:36rpx'>{{leastTime}}</view>
+          <view class='seat-txt'>截止时间</view>
+        </view>
+      </view>
+
+      <view class='list' bindtap='goLineDetail' data-id="{{item.id}}">
+        <view class='col-l'>
+          <view class='line'>客村线</view>
+          <view class='next-area'>开往 <text class='nArea'>{{nextArea}}</text></view>
+          <view class='first-area'>候车站 <text class='fArea'>客村C出口</text></view>      
+        </view>
+
+        <view class='col-r'>
+          <view class='seat' style='font-size:36rpx'>8：40</view>
+          <view class='seat-txt'>截止时间</view>
+        </view>
+      </view>
+
+
+  </view>
+</view>
