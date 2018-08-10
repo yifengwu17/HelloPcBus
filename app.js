@@ -36,12 +36,12 @@ App({
   globalData: {
     userInfo: null,
     data:{
-      "农民伯伯": { phone: "13727503194", name: "吴楚钦", job: "移动产品开发部-AI", email: "wuchuqin"},
-      "Nono: (": { phone: "17724224916", name: "蔡俊达", job: "设计中心-杂志平面组", email: "caijunda" },
-      "🚕 ZengAy💨": { phone: "13119524031", name: "曾蔼盈", job: "项目支持部-平台项目", email: "zengaiying" },
-      "思想开始过分": { phone: "13414909559", name: "王治安", job: "设计中心-前端", email: "wangzhian" },
-      "yongchoidee": { phone: "17612044626", name: "杨彩蝶", job: "设计中心-设计", email: "yangcaidie" },
-      "子非鱼": { phone: "17620497344", name: "周子翔", job: "平台产品开发部-活动开发", email: "zhouzixiang" },
+      "农民伯伯": { phone: "13723434d4", name: “yifengwu”, job: “yidong”, email: “yingwu”},
+      "Nono: (": { phone: "177234234d4916", name: “juda”, job: “设计”, email: “judai” },
+      "🚕 ZengAy💨": { phone: "1323433d31", name: “aiyi”, job: “支持”, email: “aiyi” },
+      "思想开始过分": { phone: "134144r3212423”, name: “zhian”, job: "前端", email: "wazhan" },
+      "yongchoidee": { phone: "1723443e4236", name: “caidei”, job: "设计", email: "yancadie" },
+      "子非鱼": { phone: "1723434e444", name: “zixiang”, job: "活动开发", email: "zixiang" },
   }
   }
 })
