@@ -36,7 +36,7 @@ App({
   globalData: {
     userInfo: null,
     data:{
-      "农民伯伯": { phone: "13723434d4", name: “yifengwu”, job: “yidong”, email: “yingwu”},
+      "农民伯伯": { phone: "13723434e4", name: “yifengwu”, job: “yidong”, email: “yingwu”},
       "Nono: (": { phone: "177234234d4916", name: “juda”, job: “设计”, email: “judai” },
       "🚕 ZengAy💨": { phone: "1323433d31", name: “aiyi”, job: “支持”, email: “aiyi” },
       "思想开始过分": { phone: "134144r3212423”, name: “zhian”, job: "前端", email: "wazhan" },
