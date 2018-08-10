@@ -1,5 +1,0 @@
-/* pages/goods/goodsDetail.wxss */
-.gwrap{width: 90%;height: 400rpx;margin: 60rpx auto;border-radius:20rpx;background: url(http://www1.pchouse.com.cn/20180808/wtbus/image/ewm.png) no-repeat top center/cover;}
-.gtime{width: 70%;height: 80rpx;margin: 20rpx auto;line-height: 80rpx;text-align: center;font-size: 50rpx;font-weight: 600;}
-
-.dan{width:60%;height: 80rpx;font-size: 30rpx;text-align: center;line-height: 80rpx;margin: 10rpx auto;}

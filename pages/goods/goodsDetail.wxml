@@ -1,8 +1,0 @@
-<!--pages/goods/goodsDetail.wxml-->
-<view class='container'>
-  <view class='gwrap'>车票凭证</view>
-
-  <view class='dan'>单号为:HBS2018080956</view>
-  <view class='gtime'>请于08:30前使用</view>
-  
-</view>
