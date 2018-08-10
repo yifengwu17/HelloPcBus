@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class='banner'>
+      <image src="{{index-banner}}" />
+</view>
+
+
+<view class='wrap'>
+   
+
+
+       
+
+
+        <block wx:for="{{listsData}}" wx:for-item="item" wx:key="key">
+
+
+          <view class='list' bindtap='goOrder' data-id="{{item.id}}">
+            <view class='col-l'>
+              <view class='line'>{{item.line}}</view>
+              <view class='next-area'>开往 <text class='nArea'>太平洋网络</text></view>
+              <view class='first-area'>候车站 <text class='fArea'>体育西</text></view>      
+            </view>
+
+            <view class='col-r'>
+              <view class='seat'>{{item.space % 3 + item.space % 4 + 4}}</view>
+              <view class='seat-txt'>剩余座位</view>
+            </view>
+          </view>
+
+
+
+        </block>
+              
+           
+</view>
+
+</view>
+
